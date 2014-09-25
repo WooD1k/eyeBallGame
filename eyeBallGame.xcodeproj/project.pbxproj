@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBB1646D19D40FF4005A51A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1646C19D40FF4005A51A1 /* AppDelegate.swift */; };
+		CBB1646F19D40FF4005A51A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1646E19D40FF4005A51A1 /* ViewController.swift */; };
+		CBB1647219D40FF4005A51A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB1647019D40FF4005A51A1 /* Main.storyboard */; };
+		CBB1647419D40FF4005A51A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB1647319D40FF4005A51A1 /* Images.xcassets */; };
+		CBB1647719D40FF4005A51A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBB1647519D40FF4005A51A1 /* LaunchScreen.xib */; };
+		CBB1648319D40FF5005A51A1 /* eyeBallGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1648219D40FF5005A51A1 /* eyeBallGameTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBB1647D19D40FF4005A51A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBB1645F19D40FF4005A51A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBB1646619D40FF4005A51A1;
+			remoteInfo = eyeBallGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBB1646719D40FF4005A51A1 /* eyeBallGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eyeBallGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB1646B19D40FF4005A51A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB1646C19D40FF4005A51A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBB1646E19D40FF4005A51A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBB1647119D40FF4005A51A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBB1647319D40FF4005A51A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CBB1647619D40FF4005A51A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CBB1647C19D40FF4005A51A1 /* eyeBallGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eyeBallGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB1648119D40FF4005A51A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB1648219D40FF5005A51A1 /* eyeBallGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eyeBallGameTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBB1646419D40FF4005A51A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB1647919D40FF4005A51A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBB1645E19D40FF4005A51A1 = {
+			isa = PBXGroup;
+			children = (
+				CBB1646919D40FF4005A51A1 /* eyeBallGame */,
+				CBB1647F19D40FF4005A51A1 /* eyeBallGameTests */,
+				CBB1646819D40FF4005A51A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBB1646819D40FF4005A51A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBB1646719D40FF4005A51A1 /* eyeBallGame.app */,
+				CBB1647C19D40FF4005A51A1 /* eyeBallGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBB1646919D40FF4005A51A1 /* eyeBallGame */ = {
+			isa = PBXGroup;
+			children = (
+				CBB1646C19D40FF4005A51A1 /* AppDelegate.swift */,
+				CBB1646E19D40FF4005A51A1 /* ViewController.swift */,
+				CBB1647019D40FF4005A51A1 /* Main.storyboard */,
+				CBB1647319D40FF4005A51A1 /* Images.xcassets */,
+				CBB1647519D40FF4005A51A1 /* LaunchScreen.xib */,
+				CBB1646A19D40FF4005A51A1 /* Supporting Files */,
+			);
+			path = eyeBallGame;
+			sourceTree = "<group>";
+		};
+		CBB1646A19D40FF4005A51A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBB1646B19D40FF4005A51A1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBB1647F19D40FF4005A51A1 /* eyeBallGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBB1648219D40FF5005A51A1 /* eyeBallGameTests.swift */,
+				CBB1648019D40FF4005A51A1 /* Supporting Files */,
+			);
+			path = eyeBallGameTests;
+			sourceTree = "<group>";
+		};
+		CBB1648019D40FF4005A51A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBB1648119D40FF4005A51A1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBB1646619D40FF4005A51A1 /* eyeBallGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBB1648619D40FF5005A51A1 /* Build configuration list for PBXNativeTarget "eyeBallGame" */;
+			buildPhases = (
+				CBB1646319D40FF4005A51A1 /* Sources */,
+				CBB1646419D40FF4005A51A1 /* Frameworks */,
+				CBB1646519D40FF4005A51A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eyeBallGame;
+			productName = eyeBallGame;
+			productReference = CBB1646719D40FF4005A51A1 /* eyeBallGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBB1647B19D40FF4005A51A1 /* eyeBallGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBB1648919D40FF5005A51A1 /* Build configuration list for PBXNativeTarget "eyeBallGameTests" */;
+			buildPhases = (
+				CBB1647819D40FF4005A51A1 /* Sources */,
+				CBB1647919D40FF4005A51A1 /* Frameworks */,
+				CBB1647A19D40FF4005A51A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBB1647E19D40FF4005A51A1 /* PBXTargetDependency */,
+			);
+			name = eyeBallGameTests;
+			productName = eyeBallGameTests;
+			productReference = CBB1647C19D40FF4005A51A1 /* eyeBallGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBB1645F19D40FF4005A51A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Alexey Chulochnikov";
+				TargetAttributes = {
+					CBB1646619D40FF4005A51A1 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					CBB1647B19D40FF4005A51A1 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = CBB1646619D40FF4005A51A1;
+					};
+				};
+			};
+			buildConfigurationList = CBB1646219D40FF4005A51A1 /* Build configuration list for PBXProject "eyeBallGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBB1645E19D40FF4005A51A1;
+			productRefGroup = CBB1646819D40FF4005A51A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBB1646619D40FF4005A51A1 /* eyeBallGame */,
+				CBB1647B19D40FF4005A51A1 /* eyeBallGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBB1646519D40FF4005A51A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB1647219D40FF4005A51A1 /* Main.storyboard in Resources */,
+				CBB1647719D40FF4005A51A1 /* LaunchScreen.xib in Resources */,
+				CBB1647419D40FF4005A51A1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB1647A19D40FF4005A51A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBB1646319D40FF4005A51A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB1646F19D40FF4005A51A1 /* ViewController.swift in Sources */,
+				CBB1646D19D40FF4005A51A1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB1647819D40FF4005A51A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB1648319D40FF5005A51A1 /* eyeBallGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBB1647E19D40FF4005A51A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBB1646619D40FF4005A51A1 /* eyeBallGame */;
+			targetProxy = CBB1647D19D40FF4005A51A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBB1647019D40FF4005A51A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBB1647119D40FF4005A51A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBB1647519D40FF4005A51A1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBB1647619D40FF4005A51A1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBB1648419D40FF5005A51A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBB1648519D40FF5005A51A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBB1648719D40FF5005A51A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = eyeBallGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBB1648819D40FF5005A51A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = eyeBallGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBB1648A19D40FF5005A51A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = eyeBallGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eyeBallGame.app/eyeBallGame";
+			};
+			name = Debug;
+		};
+		CBB1648B19D40FF5005A51A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = eyeBallGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eyeBallGame.app/eyeBallGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBB1646219D40FF4005A51A1 /* Build configuration list for PBXProject "eyeBallGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB1648419D40FF5005A51A1 /* Debug */,
+				CBB1648519D40FF5005A51A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBB1648619D40FF5005A51A1 /* Build configuration list for PBXNativeTarget "eyeBallGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB1648719D40FF5005A51A1 /* Debug */,
+				CBB1648819D40FF5005A51A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBB1648919D40FF5005A51A1 /* Build configuration list for PBXNativeTarget "eyeBallGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB1648A19D40FF5005A51A1 /* Debug */,
+				CBB1648B19D40FF5005A51A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBB1645F19D40FF4005A51A1 /* Project object */;
+}
